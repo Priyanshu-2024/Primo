@@ -6,15 +6,9 @@ import { AppComponent } from './app.component';
 import { GameScreenComponent } from './game-screen/game-screen.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    GameScreenComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, GameScreenComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
