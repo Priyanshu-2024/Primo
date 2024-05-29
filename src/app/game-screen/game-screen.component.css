@@ -24,10 +24,27 @@
   top: 30px;
   left: 8px;
 }
-.box-3 {
+.box-container{
   width: 970px;
   position: relative;
   top: 40px;
+  left: 8px;
+  gap: 8px;
+}
+.b-1{
+  width: 728px;
+  height: 90px;
+  background-color: #d9d9d9;
+}
+.b-2{
+  width: 234px;
+  height: 90px;
+  background-color: #d9d9d9;
+}
+.box-3 {
+  width: 970px;
+  position: relative;
+  top: 50px;
   left: 8px;
   gap: 10px;
 }
@@ -78,7 +95,7 @@
   width: 970px;
   height: 160px;
   position: relative;
-  top: 50px;
+  top: 60px;
   left: 8px;
   background-color: #d9d9d9;
 }
